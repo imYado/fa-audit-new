@@ -21,7 +21,7 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 function setLang(lang) {
   const html = document.documentElement;
-  html.lang = lang === 'ku' ? 'ckb' : lang;
+  html.lang = lang;
   html.dir = lang === 'en' ? 'ltr' : 'rtl';
   document.querySelectorAll('[data-i18n]').forEach(el => {
     el.innerHTML = (I18N[lang][el.dataset.i18n] ?? I18N.en[el.dataset.i18n]).replace('{year}', new Date().getFullYear());

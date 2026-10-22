@@ -267,7 +267,7 @@ footer .base a { color: var(--muted); }
   padding: 6px 12px; font: 500 12px/1 var(--sans); letter-spacing: 0;
   transition: background .3s var(--ease), color .3s var(--ease);
 }
-.lang button[lang="ar"], .lang button[lang="ckb"] { font: 400 14px/1 var(--ar-sans); letter-spacing: 0; }
+.lang button[lang="ar"] { font: 400 14px/1 var(--ar-sans); letter-spacing: 0; }
 .lang button[aria-pressed="true"] { background: var(--sage); color: #101210; }
 @media (hover: hover) { .lang button:hover { background: var(--navy); color: var(--ink); } }
 .lang button:active { background: var(--navy-2); color: var(--ink); }
@@ -277,7 +277,7 @@ footer .base a { color: var(--muted); }
   .lang button { padding: 6px 9px; }
 }
 
-/* RTL (Arabic / Kurdish) */
+/* RTL (Arabic) */
 [dir="rtl"] body { font-family: var(--ar-sans); font-size: 17px; line-height: 1.9; }
 [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] blockquote, [dir="rtl"] .stat b, [dir="rtl"] .contact-item strong { font-family: var(--ar); line-height: 1.45; }
 [dir="rtl"] em { font-style: normal; }
