@@ -39,9 +39,7 @@ const I18N = {
   "stat2": "Projects completed",
   "stat3": "Reports",
   "stat4": "Clients who trust us",
-  "cta.eyebrow": "Let’s get started",
   "cta.title": "Be the next <em>success story</em>",
-  "cta.text": "Tailored audit and tax solutions for businesses of every size — guidance you can build on.",
   "btn.touch": "Get in touch",
   "footer.about": "Firas I. Korban Ali &amp; Co. — an Iraqi firm serving clients in assurance, tax, advisory, and training.",
   "footer.explore": "Explore",
@@ -55,11 +53,7 @@ const I18N = {
   "story.p1": "Firas I. Korban Ali &amp; Co. is an Iraqi professional firm providing assurance, tax, advisory, and training services, founded by two certified public accountants, Dr. Firas Korban Ali and Dr. Adnan Al-Qadhi.",
   "story.p2": "Though the firm was established in 2017, Dr. Firas has practiced since 2003 — giving the company a foundation of more than twenty years of continuous professional experience.",
   "story.p3": "We understand the responsibility of presenting a true and fair view of a company’s position. We work alongside you in the Iraqi market to build shareholder trust, support informed decisions, and shape a more confident future.",
-  "mission.eyebrow": "Mission",
-  "mission.title": "Clarity you can rely on",
   "mission.text": "To deliver clear, reliable audit, tax, and advisory services that help businesses in Iraq make confident decisions and grow stronger.",
-  "values.eyebrow": "Values",
-  "values.title": "Integrity, always",
   "values.text": "We work with integrity, professionalism, and trust — committed to serving Iraq and the success of every client we partner with.",
   "svcp.title": "What we’re <em>offering</em>",
   "team.title": "Experienced, <em>world-class</em> accountants",
@@ -99,7 +93,8 @@ const I18N = {
   "nf.eyebrow": "404",
   "nf.title": "Page not <em>found</em>",
   "nf.text": "The page you’re looking for may have moved or no longer exists.",
-  "nf.home": "Back to home"
+  "nf.home": "Back to home",
+  "mv.title": "Mission &amp; <em>values</em>"
  },
  "ar": {
   "nav.home": "الرئيسية",
@@ -141,9 +136,7 @@ const I18N = {
   "stat2": "مشروع منجز",
   "stat3": "تقرير",
   "stat4": "عميل يثق بنا",
-  "cta.eyebrow": "لنبدأ الآن",
   "cta.title": "كن <em>قصة النجاح</em> القادمة",
-  "cta.text": "حلول تدقيق وضرائب مصممة لأعمال بجميع الأحجام — إرشاد يمكنك البناء عليه.",
   "btn.touch": "تواصل معنا",
   "footer.about": "فراس إسماعيل قربان علي وشركاه — شركة عراقية تقدم خدمات التدقيق والضرائب والاستشارات والتدريب.",
   "footer.explore": "استكشف",
@@ -157,11 +150,7 @@ const I18N = {
   "story.p1": "فراس إسماعيل قربان علي وشركاه شركة مهنية عراقية تقدم خدمات التدقيق والضرائب والاستشارات والتدريب، أسسها محاسبان قانونيان هما الدكتور فراس قربان علي والدكتور عدنان القاضي.",
   "story.p2": "ورغم أن الشركة تأسست عام 2017، فإن الدكتور فراس يمارس المهنة منذ عام 2003، مما يمنح الشركة أساساً متيناً يمتد لأكثر من عشرين عاماً من الخبرة المهنية المتواصلة.",
   "story.p3": "ندرك مسؤولية عرض صورة صادقة وعادلة عن وضع الشركة. نعمل معكم في السوق العراقية لبناء ثقة المساهمين ودعم القرارات المدروسة وصناعة مستقبل أكثر ثقة.",
-  "mission.eyebrow": "رسالتنا",
-  "mission.title": "وضوح يمكنك الاعتماد عليه",
   "mission.text": "تقديم خدمات تدقيق وضرائب واستشارات واضحة وموثوقة تساعد الأعمال في العراق على اتخاذ قرارات واثقة والنمو بقوة أكبر.",
-  "values.eyebrow": "قيمنا",
-  "values.title": "النزاهة دائماً",
   "values.text": "نعمل بنزاهة واحترافية وثقة، ملتزمين بخدمة العراق ودعم نجاح كل عميل نتشارك معه.",
   "svcp.title": "ما <em>نقدمه</em>",
   "team.title": "محاسبون ذوو خبرة <em>بمستوى عالمي</em>",
@@ -201,6 +190,7 @@ const I18N = {
   "nf.eyebrow": "404",
   "nf.title": "الصفحة <em>غير موجودة</em>",
   "nf.text": "ربما نُقلت الصفحة التي تبحث عنها أو لم تعد موجودة.",
-  "nf.home": "العودة إلى الرئيسية"
+  "nf.home": "العودة إلى الرئيسية",
+  "mv.title": "الرسالة <em>والقيم</em>"
  }
 };

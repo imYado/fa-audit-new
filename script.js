@@ -42,3 +42,12 @@ document.querySelector('.contact-form')?.addEventListener('submit', e => {
     + '?subject=' + encodeURIComponent(name + ' - Enquiry')
     + '&body=' + encodeURIComponent(message + '\n\n— ' + name);
 });
+
+// theme: follows the device until the visitor picks one; the choice is remembered
+const themeBtn = document.querySelector('.theme-toggle');
+themeBtn.addEventListener('click', () => {
+  const html = document.documentElement;
+  const current = html.dataset.theme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  html.dataset.theme = current === 'light' ? 'dark' : 'light';
+  try { localStorage.setItem('theme', html.dataset.theme); } catch (e) {}
+});
