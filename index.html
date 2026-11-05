@@ -20,7 +20,7 @@
 <body>
 <header class="nav"><div class="wrap">
   <a class="brand" href="index.html"><img class="logo-dark" src="assets/logo-full.webp" alt="FA-Audit — Firas I. Korban Ali &amp; Co."><img class="logo-light" src="assets/logo-full-light.webp" alt="FA-Audit — Firas I. Korban Ali &amp; Co."></a>
-  <nav><ul><li><a href="index.html" class=active data-i18n="nav.home">Home</a></li><li><a href="about.html" data-i18n="nav.about">About</a></li><li><a href="services.html" data-i18n="nav.services">Services</a></li><li><a href="team.html" data-i18n="nav.team">Leadership</a></li><li><a href="contact.html" data-i18n="nav.contact">Contact</a></li></ul></nav>
+  <nav><ul><li><a href="index.html" class=active data-i18n="nav.home">Home</a></li><li><a href="about.html" data-i18n="nav.about">About</a></li><li><a href="services.html" data-i18n="nav.services">Services</a></li><li><a href="contact.html" data-i18n="nav.contact">Contact</a></li></ul></nav>
   <div class="lang" role="group" aria-label="Language">
     <button data-lang="en" lang="en">EN</button><button data-lang="ar" lang="ar">عربي</button>
   </div>
@@ -29,8 +29,8 @@
 </div></header>
 <main>
 
-<section class="hero">
-  <img class="hero-mark" src="assets/logo-circle.png" alt="" aria-hidden="true">
+<section class="hero on-dark">
+  <img class="hero-bg" src="assets/hero-wall-lion.webp" alt="" aria-hidden="true" fetchpriority="high">
   <div class="wrap">
     <div class="reveal">
       <span class="eyebrow" data-i18n="hero.eyebrow">Baghdad · Practising since 2003</span>
@@ -43,30 +43,47 @@
   </div>
 </section>
 
-<section style="padding-top:0"><div class="wrap">
+<section><div class="wrap">
   <div class="reveal"><span class="eyebrow" data-i18n="offer.eyebrow">What we offer</span>
   <h2 data-i18n="offer.title">A wide range of <em>services</em></h2></div>
-  <div class="services reveal"><a class="service" href="services.html"><h3 data-i18n="s1.name">Assurance</h3><span class="more"><span data-i18n="learn.more">Learn more</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span></a><a class="service" href="services.html"><h3 data-i18n="s2.name">Tax</h3><span class="more"><span data-i18n="learn.more">Learn more</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span></a><a class="service" href="services.html"><h3 data-i18n="s3.name">Advisory</h3><span class="more"><span data-i18n="learn.more">Learn more</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span></a><a class="service" href="services.html"><h3 data-i18n="s4.name">Training</h3><span class="more"><span data-i18n="learn.more">Learn more</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span></a></div>
+  <div class="home-services"><a class="detail reveal" href="services.html">
+  <div><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span><h3 data-i18n="s1.full">Assurance Services</h3></div>
+  <div><p data-i18n="s1.desc">This service enhances the reliability and accuracy of financial information, helping clients improve their reporting processes.</p></div>
+</a><a class="detail reveal" href="services.html">
+  <div><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4"/><path d="M9.5 16.5l5-6"/><circle cx="10" cy="11" r="1"/><circle cx="14" cy="16" r="1"/></svg></span><h3 data-i18n="s2.full">Tax Services</h3></div>
+  <div><p data-i18n="s2.desc">We provide our clients with a strong, experienced team specializing in corporate income tax, personal income tax, social security, and tax clearance.</p></div>
+</a><a class="detail reveal" href="services.html">
+  <div><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></span><h3 data-i18n="s3.full">Advisory Services</h3></div>
+  <div><p data-i18n="s3.desc">We help clients make informed decisions and minimize potential business risks through our feasibility study and internal audit services.</p></div>
+</a><a class="detail reveal" href="services.html">
+  <div><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.5c0 1.5 2.5 3 5.5 3s5.5-1.5 5.5-3V11"/><path d="M21.5 9v5"/></svg></span><h3 data-i18n="s4.full">Training Services</h3></div>
+  <div><p data-i18n="s4.desc">We offer clients training programs aimed at enhancing team and organizational development, led by qualified professionals.</p></div>
+</a><a class="detail reveal" href="services.html">
+  <div><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v16H5.5c-.8 0-1.5-.7-1.5-1.5z"/><path d="M20 5.5c0-.8-.7-1.5-1.5-1.5H13v16h5.5c.8 0 1.5-.7 1.5-1.5z"/><path d="M6.5 8h2.5M6.5 11h2.5M15.5 8h2M15.5 11h2M15.5 14h2"/></svg></span><h3 data-i18n="s5.full">Bookkeeping Services</h3></div>
+  <div><p data-i18n="s5.desc">We keep your accounting records accurate and compliant, and prepare financial statements to Iraqi and international standards.</p></div>
+</a></div>
 </div></section>
 
-<section style="padding-top:0"><div class="wrap narrow">
+<section class="band-green"><div class="wrap narrow">
   <div class="reveal">
     <span class="eyebrow" data-i18n="about.eyebrow">About us</span>
     <h2 data-i18n="about.title">The only source of knowledge is <em>experience</em></h2>
     <p class="lead" data-i18n="about.lead">Our partners have led audit, tax, and advisory engagements for more than 200 local companies, as well as branches of Arab and foreign companies and banks.</p>
     <ul class="ticks"><li data-i18n="tick1">Local expertise, global standards</li><li data-i18n="tick2">Experienced &amp; professional team</li><li data-i18n="tick3">Commitment to transparency &amp; accuracy</li></ul>
     <div class="ornament short"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="5" y="5" width="14" height="14"/><rect x="5" y="5" width="14" height="14" transform="rotate(45 12 12)"/><circle cx="12" cy="12" r="2"/></svg></div>
+    <div class="actions">
     <a class="btn ghost" href="about.html"><span data-i18n="btn.story">Our story</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+    </div>
   </div>
 </div></section>
 
-<section style="padding-top:0"><div class="wrap"><div class="stats reveal">
+<section><div class="wrap"><div class="stats reveal">
   <div class="stat"><b data-count="20">0</b><span data-i18n="stat1">Years of experience</span></div>
   <div class="stat"><b data-count="570">0</b><span data-i18n="stat2">Projects completed</span></div>
   <div class="stat"><b data-count="1300">0</b><span data-i18n="stat3">Reports</span></div>
   <div class="stat"><b data-count="200">0</b><span data-i18n="stat4">Clients who trust us</span></div>
 </div></div></section>
-<section class="cta"><div class="wrap reveal">
+<section class="cta"><div class="wrap reveal on-dark">
   <h2 data-i18n="cta.title">Be the next <em>success story</em></h2>
   <a class="btn" href="contact.html"><span data-i18n="btn.touch">Get in touch</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
 </div></section>
@@ -80,7 +97,7 @@
     </div>
     <div><h4 data-i18n="footer.explore">Explore</h4><ul>
       <li><a href="about.html" data-i18n="nav.about">About</a></li><li><a href="services.html" data-i18n="nav.services">Services</a></li>
-      <li><a href="team.html" data-i18n="footer.team">Leadership Team</a></li><li><a href="contact.html" data-i18n="nav.contact">Contact</a></li></ul></div>
+      <li><a href="about.html#leadership" data-i18n="footer.team">Leadership Team</a></li><li><a href="contact.html" data-i18n="nav.contact">Contact</a></li></ul></div>
     <div><h4 data-i18n="footer.contact">Contact</h4><ul>
       <li><span data-i18n="address">Al-Yarmouk, Baghdad, Iraq</span></li>
       <li><a href="mailto:info@fa-audit.iq">info@fa-audit.iq</a></li>

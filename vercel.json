@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/team.html", "destination": "/about.html#leadership", "permanent": true },
+    { "source": "/team", "destination": "/about.html#leadership", "permanent": true }
+  ]
+}
