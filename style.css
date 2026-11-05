@@ -293,6 +293,8 @@ a.detail:hover h3 { color: var(--accent); }
 .detail .ar { color: var(--muted); font-size: 22px; margin-top: 6px; text-align: left; }
 .detail p { color: var(--ink-2); }
 .home-services { margin-top: 40px; }
+.home-services .detail > div:first-child { display: flex; align-items: center; gap: 18px; }
+.home-services .ico { margin: 0; }
 .sub-label { display: block; margin: 28px 0 12px; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
 [dir="rtl"] .sub-label { font-size: 15px; }
 .subs { list-style: none; display: grid; gap: 10px; }
